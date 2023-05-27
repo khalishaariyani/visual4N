@@ -3,7 +3,7 @@ object Form2: TForm2
   Top = 125
   Width = 928
   Height = 480
-  Caption = 'PRAKTEK MANDIRI_1'
+  Caption = '2. PRAKTEK MANDIRI_1'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

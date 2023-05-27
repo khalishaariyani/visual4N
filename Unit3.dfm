@@ -3,7 +3,7 @@ object Form3: TForm3
   Top = 169
   Width = 928
   Height = 480
-  Caption = 'latihan 02 kondisional'
+  Caption = '3. latihan 02 kondisional'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

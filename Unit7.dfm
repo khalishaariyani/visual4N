@@ -1,9 +1,9 @@
 object Form7: TForm7
-  Left = 146
-  Top = 128
+  Left = 336
+  Top = 197
   Width = 928
   Height = 575
-  Caption = 'Form7'
+  Caption = '6. Revisi grafik dan string grid'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

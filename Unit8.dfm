@@ -1,9 +1,9 @@
-object Form6: TForm6
-  Left = 565
-  Top = 307
+object Form8: TForm8
+  Left = 204
+  Top = 172
   Width = 928
-  Height = 480
-  Caption = 'grafik dan string grid'
+  Height = 572
+  Caption = '5. string grid dan grafik'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,33 +11,32 @@ object Form6: TForm6
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
-  object NPM: TLabel
-    Left = 32
-    Top = 64
-    Width = 21
+  object lbl1: TLabel
+    Left = 40
+    Top = 96
+    Width = 94
     Height = 13
-    Caption = 'NPM'
+    Caption = 'TAHUN_ANGKATAN'
   end
-  object NAMA_MAHASISWA: TLabel
-    Left = 32
-    Top = 104
-    Width = 97
+  object lbl2: TLabel
+    Left = 40
+    Top = 136
+    Width = 99
     Height = 13
-    Caption = 'NAMA_MAHASISWA'
+    Caption = 'JUMLAH_ANGKATAN'
   end
-  object TAHUN_AJARAN: TLabel
-    Left = 32
-    Top = 144
-    Width = 80
+  object lbl3: TLabel
+    Left = 40
+    Top = 176
+    Width = 50
     Height = 13
-    Caption = 'TAHUN_AJARAN'
+    Caption = 'FAKULTAS'
   end
   object cbb1: TComboBox
-    Left = 152
-    Top = 144
+    Left = 160
+    Top = 168
     Width = 145
     Height = 21
     ItemHeight = 13
@@ -50,16 +49,16 @@ object Form6: TForm6
       '2023')
   end
   object edtnpm: TEdit
-    Left = 152
-    Top = 64
+    Left = 160
+    Top = 96
     Width = 121
     Height = 21
     TabOrder = 1
     Text = '0'
   end
   object edtnama: TEdit
-    Left = 152
-    Top = 104
+    Left = 160
+    Top = 128
     Width = 121
     Height = 21
     TabOrder = 2
@@ -72,12 +71,12 @@ object Form6: TForm6
     Height = 120
     TabOrder = 3
   end
-  object BIODATA_MAHASISWA: TPanel
+  object pnlBIODATA_MAHASISWA: TPanel
     Left = 272
     Top = 16
     Width = 185
     Height = 41
-    Caption = 'BIODATA_MAHASISWA'
+    Caption = 'DATA MAHASISWA'
     TabOrder = 4
   end
   object btnview: TButton
@@ -119,7 +118,7 @@ object Form6: TForm6
     View3DOptions.Rotation = 360
     View3DWalls = False
     TabOrder = 7
-    object series1: TPieSeries
+    object psrsseries1: TPieSeries
       Marks.ArrowLength = 8
       Marks.Visible = True
       SeriesColor = clRed

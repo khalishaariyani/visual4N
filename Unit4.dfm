@@ -1,9 +1,9 @@
 object Form4: TForm4
-  Left = 206
-  Top = 137
+  Left = 155
+  Top = 167
   Width = 928
   Height = 480
-  Caption = 'Latihan 04'
+  Caption = '4. latihan kondisonal 2'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
